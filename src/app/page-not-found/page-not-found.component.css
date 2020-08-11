@@ -1,0 +1,12 @@
+h1 {
+    animation: blinker 1s linear infinite;
+    font-size: 49px;
+    font-weight: 900;
+    color: red;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
